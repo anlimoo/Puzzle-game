@@ -56,7 +56,7 @@ public class MyMainFrame extends JFrame implements ActionListener {
 	public MyMainFrame(String user) {
 		if(user==null) {
 			userInfo[0]=userInfo[1]=userInfo[3]=null;
-			userInfo[2]="路人";
+			userInfo[2]="机器人";
 		} else {
 			userInfo=InformationWR.getUserInfo(user);
 		}
@@ -75,7 +75,7 @@ public class MyMainFrame extends JFrame implements ActionListener {
 		JLabel tuxiang=new JLabel(icon1);     
 		tuxiang.setBounds(15,20,widthMenu-70,widthMenu-70);
 		panelInfo.add(tuxiang);
-		JLabel userName=new JLabel("用户名："+(user==null?"路人":userInfo[1]));
+		JLabel userName=new JLabel("用户名："+(user==null?"机器人":userInfo[1]));
 		JLabel nickName=new JLabel("昵称："+userInfo[2]);
 		userName.setHorizontalAlignment(SwingConstants.CENTER);
 		nickName.setHorizontalAlignment(SwingConstants.CENTER);
