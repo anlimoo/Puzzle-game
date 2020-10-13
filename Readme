@@ -1,0 +1,9 @@
+1.使用语言：JAVA
+2.运行环境：java version “1.8.0_261"
+           java(TM) SE Runtine Environment (built 1.8.0_261-b12)
+           java HotSpot(TM) 64-Bit Server VM (build 25.261-b12,mixed mode)
+3.编译方法：Doc命令/cmd
+4.使用方法：
+  在src文件夹的路径cmd ，javac ui/MyMainFrame.java
+                       java ui/MyMainFrame
+  可选择图片，选择难度（3*3，4*4，5*5），自动重排等功能。
